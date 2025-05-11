@@ -36,9 +36,9 @@
                                       
                                   {{-- @endif --}}
                                   <li class="nav-item"><a class="nav-link"
-                                          href="{{ route('theme.category') }}">Bussiness</a></li>
+                                          href="{{ route('theme.business') }}">Bussiness</a></li>
                                   <li class="nav-item"><a class="nav-link"
-                                          href="{{ route('theme.category') }}">Travel</a></li>
+                                          href="{{ route('theme.travel') }}">Travel</a></li>
                               </ul>
                           </li>
                           <li class="nav-item @yield('contact-active')"><a class="nav-link"

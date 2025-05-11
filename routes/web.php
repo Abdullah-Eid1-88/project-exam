@@ -12,6 +12,8 @@ use Illuminate\Support\Facades\Route;
 Route::controller(Themecontroller::class)->name('theme.')->group(function () {
     Route::get('/', 'home')->name('home');
     Route::get('/category', 'category')->name('category');
+    Route::get('/category/travel', 'travel')->name('travel');
+    Route::get('/category/business', 'business')->name('business');
     Route::get('/contact', 'contact')->name('contact');
     Route::get('/single-blog','single_blog')->name('single-blog');
     

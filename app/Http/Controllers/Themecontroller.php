@@ -12,6 +12,12 @@ class Themecontroller extends Controller
     public function category(){
         return view('theme.category');
     }
+     public function travel(){
+        return view('theme.travel');
+    }
+     public function business(){
+        return view('theme.business');
+    }
     public function contact(){
         return view('theme.contact');
     }
